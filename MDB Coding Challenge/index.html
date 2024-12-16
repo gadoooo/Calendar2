@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>MDB Coding Challenge</title>
+</head>
+
+<body>
+    <h1 id="mdb">MDB Coding Challenge(Calendar)</h1>
+    <div id="container1">
+        <label for="task">Task</label>
+        <input type="text" id="task" />
+    </div>
+    <div id="container2">
+        <label for="start">start</label>
+        <input type="number" id="start" />
+        <label for="end">end</label>
+        <input type="number" id="end" />
+    </div>
+    <button type="button" id="add">Add</button>
+    <button type="button" id="reset">Reset</button>
+    <button type="button" id="show">Show in Calender</button>
+    <table>
+        <tr>
+            <th id="tasktable">Task</th>
+            <th class="startandendtable">Start</th>
+            <th class="startandendtable">End</th>
+            <th id="operationstable">Operations</th>
+        </tr>
+    </table>
+    <div id="container3">
+        <div id="calendar"></div>
+        <div id="hours">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

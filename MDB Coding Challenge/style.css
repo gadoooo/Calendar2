@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mdb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#container1 {
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#container2 {
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#add {
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+#remove {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#reset {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#show {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 1rem;
+}
+
+#tasktable {
+    width: 20rem;
+}
+
+.startandendtable {
+    width: 5rem;
+}
+
+#operationstable {
+    width: 5rem;
+}
+
+#container3 {
+    margin-top: 2rem;
+    position: relative;
+}
+
+#calendar {
+    background-color: gray;
+    position: relative;
+    height: 720px;
+    width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 70px;
+}
+
+
+#hours {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.time {
+    text-align: right;
+}
+
+.timesmall {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.timeclass {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.tasksCreated {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
